@@ -25,6 +25,7 @@ class Dog
     @@all << self
   end
 
+  private
   def clear_all
     @@all.clear
   end
