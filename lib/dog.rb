@@ -18,8 +18,10 @@ class Dog
       puts "#{dog.name}"
     end
   end
+  
+  private
 
-  def self.save
+  def save
     @@all << self
   end
 end
